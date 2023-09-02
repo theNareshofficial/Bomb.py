@@ -1,29 +1,37 @@
 import os
 import colorama
 from colorama import Fore
-from banner import __banner__
+from banner import __folder__
 
 colorama.init(autoreset=True)
 
-__banner__()
+__folder__()
 
 def __folder__():
 
-    cwd = os.getcwd()
-    cd = os.chdir("C:\Windows\Temp")
-
-    try:
-        print(f"{Fore.YELLOW}\t NOTE!!! Enter number Only")
-        count = int(input(f"{Fore.BLUE}\n[+]\t{Fore.MAGENTA}Enter Number of Folder : {Fore.GREEN}"))
-        for i in range(count):
-            os.mkdir("{}.temp".format(i))
-            print(f"{Fore.GREEN}{i}.temp")
-
-    except FileExistsError:
-        print(Fore.BLUE + "\n[+]\t", Fore.RED + "oops!!! This File is already exits, Resart Once\n")
-    
-    except ValueError:
-        print(f"{Fore.RED}\nError : Give Correct Value!!!")
-
+    while True:
+        try:
+            cwd = os.getcwd()
+            cd = os.chdir("C:\Windows\Temp")
+            print(f"{Fore.RED}\t NOTE!!! {Fore.YELLOW}Enter number Only")
+            print(f"{Fore.BLUE}[+]\t{Fore.GREEN} 0.Exit")
+            count = int(input(f"{Fore.BLUE}\n[+]\t{Fore.MAGENTA}Enter Number of Folder : {Fore.GREEN}"))
+            for i in range(count):
+                os.mkdir("{}.temp".format(i))
+                print(f"{Fore.GREEN}{i}.temp")
+            print(f"{Fore.GREEN}\nDone...\n")
+            if count == 0:
+                print(f"{Fore.GREEN}\nExit...\n")
+                exit()
+        except FileExistsError:
+            print(Fore.BLUE + "\n[+]\t", Fore.RED + "oops!!! This File is Already Exits, Restart Once\n")
+        except ValueError:
+            print(f"{Fore.RED}\nError : Give Correct Value!!!")
+        except KeyboardInterrupt:
+            print(f"{Fore.RED}\nExit...")
+            exit()
+        except EOFError:
+            print(f"{Fore.RED}\nExit...")
+            exit()
 
 __folder__()
