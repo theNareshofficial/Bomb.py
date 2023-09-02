@@ -5,7 +5,7 @@
 <p align='center'>This Tool Developed By <br> <a herf="https://www.instagram.com/the_naresh_offcial/">@thenareshofficial</p>
 
 
-## Installtion
+## Installation
 
 ```console
 
@@ -29,7 +29,13 @@ $python3 -m install -r  requirements.txt
 <p>The Folder Attack is Create a N number of folder's in C:/Windows</p>
 
 ### 4.File
-<p>The File Attack is Create a N number os file's in c:/Windows</p>
+<p>The File Attack is Create a N number of file's in c:/Windows</p>
+
+### 5.Explorer
+<p>The Explorer Attack is Create a N number of Explorer's</p>
+
+### 6.Chrome
+<p>The Chrome Attack is Create a N number of Chrome window's</p>
 
 <h1 align='center'><u>ThankYou</u></h1>
 
