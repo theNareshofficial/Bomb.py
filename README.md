@@ -1,6 +1,6 @@
 <p align=center>
 
-<img src='asset/banner.py.png.png'>
+<img src='asset/banner.png'>
 
 <p align='center'>This Tool Developed By <br> <a herf="https://www.instagram.com/the_naresh_offcial/">@thenareshofficial</p>
 
