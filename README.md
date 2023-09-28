@@ -18,7 +18,9 @@ $git clone
 $cd Bomb.py
 
 #Install the  Bomb.py requirements
-$python3 -m install pip -r requirements.txt```
+```
+$python3 -m install pip -r requirements.txt
+```
 ## Usage
 ### 1.CMD 
 <p>The CMD(Command prompt) Attack is open a N number of CMD and crash a system.</p>
