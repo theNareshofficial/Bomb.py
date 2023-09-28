@@ -18,8 +18,7 @@ $git clone
 $cd Bomb.py
 
 #Install the  Bomb.py requirements
-```
-$python3 -m install pip -r requirements.txt
+$python3 -m pip install -r requirements. txt
 ```
 ## Usage
 ### 1.CMD 
