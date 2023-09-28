@@ -18,8 +18,7 @@ $git clone
 $cd Bomb.py
 
 #Install the  Bomb.py requirements
-$python3 -m install -r  requirements.txt
-```
+$python3 -m install pip -r requirements.txt```
 ## Usage
 ### 1.CMD 
 <p>The CMD(Command prompt) Attack is open a N number of CMD and crash a system.</p>
@@ -31,13 +30,13 @@ $python3 -m install -r  requirements.txt
 <p>The Folder Attack is Create a N number of folder's in C:/Windows</p>
 
 ### 4.File
-<p>The File Attack is Create a N number of file's in c:/Windows</p>
+<p>The File Attack is Open a N number of file's in c:/Windows</p>
 
 ### 5.Explorer
-<p>The Explorer Attack is Create a N number of Explorer's</p>
+<p>The Explorer Attack is Open a N number of Explorer's</p>
 
 ### 6.Chrome
-<p>The Chrome Attack is Create a N number of Chrome window's</p>
+<p>The Chrome Attack is Open a N number of Chrome window's</p>
 
 <h1 align='center'><u>ThankYou</u></h1>
 
