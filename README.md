@@ -12,7 +12,7 @@
 ```console
 
 #clone the repo
-$git clone 
+$git clone https://github.com/theNareshofficial/Bomb.py.git
 
 #change Directory Bomb.py
 $cd Bomb.py
@@ -22,22 +22,22 @@ $python3 -m pip install -r requirements. txt
 ```
 ## Usage
 ### 1.CMD 
-<p>The CMD(Command prompt) Attack is open a N number of CMD and crash a system.</p>
+<p>The CMD(Command prompt) Attack is open a n number of CMD and crash a system.</p>
 
 ### 2.Notepad
-<p>The Notepad Attack is open a N number of Notepad's and crash a system</p>
+<p>The Notepad Attack is open a n number of Notepad's and crash a system</p>
 
 ### 3. Folder
-<p>The Folder Attack is Create a N number of folder's in C:/Windows</p>
+<p>The Folder Attack is Create a n number of folder's in C:/Windows</p>
 
 ### 4.File
-<p>The File Attack is Open a N number of file's in c:/Windows</p>
+<p>The File Attack is Open a n number of file's in c:/Windows</p>
 
 ### 5.Explorer
-<p>The Explorer Attack is Open a N number of Explorer's</p>
+<p>The Explorer Attack is Open a n number of Explorer's</p>
 
 ### 6.Chrome
-<p>The Chrome Attack is Open a N number of Chrome window's</p>
+<p>The Chrome Attack is Open a n number of Chrome window's</p>
 
 <h1 align='center'><u>ThankYou</u></h1>
 
