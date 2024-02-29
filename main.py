@@ -1,9 +1,14 @@
 import colorama
 from colorama import Fore
-from banner import __banner__
+from src.banner import _banner_ 
+from src.chrome import chrome
+from src.cms import __cmd__
+from src.explorer import __explorer__
+from src.note import __note__
+from src.file import __file__
+from src.folder import __folder__
 
-
-__banner__()
+_banner_()
 
 colorama.init(autoreset=True)
 
@@ -22,21 +27,21 @@ def __main__():
 
     while True:
         try:
-            attack = input(f"{Fore.BLUE}\n[+]\t{Fore.MAGENTA}Enter Your Attack : {Fore.GREEN}")
+            attack = int(input(f"{Fore.BLUE}\n[+]\t{Fore.MAGENTA}Enter Your Attack : {Fore.GREEN}"))
 
-            if attack == '1':
-                import cmd
-            elif attack == '2':
-                import note
-            elif attack == '3':
-                import  folder
-            elif attack == '4':
-                import file
-            elif attack == '5':
-                import explorer
-            elif attack == '6':
-                import chrome
-            elif attack == "0":
+            if attack == 1:
+                __cmd__()
+            elif attack == 2:
+                __note__()
+            elif attack == 3:
+                __folder__()
+            elif attack == 4:
+                __file__()
+            elif attack == 5:
+                __explorer__()
+            elif attack == 7:
+                chrome()
+            elif attack == 0:
                 print(f"{Fore.GREEN}Exit...\n")
                 exit()
             else:
