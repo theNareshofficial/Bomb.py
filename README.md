@@ -6,6 +6,21 @@
 
 ## This Attack only on windows
 
+## Folder Structure
+
+BOMB.PY <BR>
+|-- asset <BR>
+|-- src <BR>
+|   |-- banner.py <BR>
+|   |-- chrome.py <BR>
+|   |-- cms.py <BR>
+|   |-- explorer.py <BR>
+|   |-- file.py <BR>
+|   |-- note.py <BR>
+|-- main.py <BR>
+|-- README.md <BR>
+|-- requirements.txt <BR>
+
 
 ## Installation
 
